@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/hrsystem.css">
+    <title>HR System</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-info">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="imgs/1.jpeg" id="icon" alt=""> </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Peaple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Social Insurance</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Medical Insurance</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Payroll</a>
+                    </li>
+
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Employee's Vacations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Annuals</a></li>
+                            <li><a class="dropdown-item" href="#">Casuals</a></li>
+                            <li>
+                            <li><a class="dropdown-item" href="#">Sick Leave</a></li>
+
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true"> </a>
+                            </li>
+                        </ul>
+            </div>
+        </div>
+    </nav>
+
+    <hr>
+    <br>
+
+    <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search Employee" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+    </form>
+
+
+    <br>
+    <hr>
+
+    <!-- Cards -->
+    <div>
+        <div id="emp" class="text-center m-1">
+            <h3>Employees</h3>
+            <p class="count">Total Employees = 8</p>
+        </div>
+        <br>
+        <hr>
+        <div class="button-container">
+            <button id="add" type="button" class="btn btn-primary"> + Add New
+                Employee</button>
+            <button id="del" type="button" class="btn btn-danger"> Delete Employee</button>
+        </div>
+
+        <script>
+            document.getElementById("add").addEventListener("click", function () {
+                window.location.href = "file:///C:/Users/MANZY/gitproj/add-emp.html";
+            });
+        </script>
+
+        <div class="row" class="d-flex">
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/2.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mohamed Salah</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/3.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nareman Salah</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/4.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Maha Ahmed</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/5.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alaa wagdy</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="d-flex justify-content-center ccol-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/6.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asmaa Imam</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="d-flex justify-content-center ccol-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/7.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fady Ashraf</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/8.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ahmed Ali</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center col-lg-3 col-md-3 col-6 col-6 p-1">
+                <div class="card" id="pp">
+                    <img src="imgs/9.jpeg" class="card-img-top" class id="imgg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hesham Sief</h5>
+                        <p class="proj">Title: Project Manger</p>
+                        <p class="jd">Join Date: 15/01/2020</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <br>
+    <hr>
+
+
+    <!-- Footer -->
+    <div id="footer" style="width: 100%;" style="width: 80vw; height: 50vh;">
+        <footer id="break" class="bg-body-tertiary text-center" style="border-top: 10px solid #8c8e2b">
+            <!-- Grid container -->
+            <div>
+                <br>
+                <hr>
+                <!-- Section: Social media -->
+                <div>
+                    <section class="mb-4 ">
+                        <!-- Facebook -->
+                        <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                            style="background-color: #3b5998;"
+                            href="https://www.facebook.com/heba.abueleneen?mibextid=LQQJ4d" role="button"
+                            class="btn btn-primary">Facebook</button><i class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+
+                        <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                            style="background-color: #1e1e1f;" href="https://x.com/heba_abueleneen" role="button"><i
+                                class="fab fa-twitter " class="btn btn-primary">Twitter</i>
+                            </i></a>
+
+                        <!-- Instagram -->
+                        <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                            style="background-color: #ac2bac;"
+                            href="https://www.instagram.com/heba_abueleneen?igsh=eXZrY2g2bnhra2hr&utm_source=qr"
+                            role="button" class="btn btn-primary">Instagram</i><i class="fab fa-instagram"></i></a>
+
+                        <!-- Linkedin -->
+                        <a data-mdb-ripple-init class="btn text-white btn-floating m-1"
+                            style="background-color: #0082ca;"
+                            href="https://eg.linkedin.com/in/heba-abueleneen-9784701b5" role="button"
+                            class="btn btn-primary">LinkedIn</i><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                </section>
+
+            </div>
+            <div id="Copyright" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright:
+                <a class="text-body"
+                    href="https://eg.linkedin.com/in/heba-abueleneen-9784701b5">Heba-Abueleneen/LinkedIn.com</a>
+            </div>
+    </div>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
